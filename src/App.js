@@ -71,6 +71,8 @@ class App extends React.Component {
       return { puppies: filteredPups };
     });
   };
+
+  filterPupsByPersonality;
 }
 
 export default App;
